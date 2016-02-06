@@ -1,0 +1,21 @@
+{
+    "title": "Navs",
+    "samples": {
+        "default": {
+            "route" : [ "","default"],
+            "files": [ "html", "js" ]
+        },
+        "justified": {
+            "route" : [ "justified"],
+            "files": [ "html", "js" ]
+        },
+        "vertical-pills": {
+            "route" : [ "vertical-pills"],
+            "files": [ "html", "js" ]
+        },
+        "toggable": {
+            "route" : [ "toggable"],
+            "files": [ "html", "js" ]
+        }
+    }
+}

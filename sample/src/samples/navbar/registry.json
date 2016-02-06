@@ -1,0 +1,21 @@
+{
+  "title": "Navbar",
+  "samples": {
+    "default": {
+      "route" : ["", "default"],
+      "files": ["html", "js"]
+    },
+    "inverse": {
+            "route" : [ "inverse"],
+            "files": [ "html", "js" ]
+    },
+    "fixed": {
+            "route" : [ "fixed"],
+            "files": [ "html", "js" ]
+    },
+    "static": {
+            "route" : [ "static"],
+            "files": [ "html", "js" ]
+    }
+  }
+}

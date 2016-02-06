@@ -1,0 +1,23 @@
+<template>
+    <require from="./doc"></require>
+    <section>
+        <h3>Bootstrap bridge Components Catalog Help</h3>
+
+        <ul b-navs>
+            <li class="active"><a data-toggle="tab" href="#componentDocs">Components Docs</a></li>
+            <li><a data-toggle="tab" href="#gitterChannel">Gitter Channel</a></li>
+        </ul>
+
+        <b-tab-content>
+            <b-tab-pane b-id="componentDocs" b-active="true" class="fade in">
+                <div style="height: 790px;">
+                    <doc></doc>
+                </div>
+            </b-tab-pane>
+            <b-tab-pane b-id="gitterChannel" class="fade">
+                <div style="height: 790px;">
+                </div>
+            </b-tab-pane>
+        </b-tab-content>
+    </section>
+</template>

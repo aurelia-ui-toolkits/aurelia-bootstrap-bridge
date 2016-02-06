@@ -1,0 +1,50 @@
+<template>
+
+    <b-navbar b-static-top="true">
+        <div class="container-fluid">
+            
+            <b-navbar-header>
+                <b-navbar-toggle b-data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </b-navbar-toggle>
+                
+                <b-navbar-brand b-href="#/samples/navbar/static">Static navbar</b-navbar-brand>    
+            </b-navbar-header>
+            
+            <b-navbar-collapse b-id="navbar">
+                <ul b-navbar-nav="position:right">
+                    <li class="active"><a href="#/samples/navbar/static">Home</a></li>
+                    <li><a href="#/samples/navbar/static">About</a></li>
+                    <li><a href="#/samples/navbar/static">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#/samples/navbar/static" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#/samples/navbar/static">Action</a></li>
+                            <li><a href="#/samples/navbar/static">Another action</a></li>
+                            <li><a href="#/samples/navbar/static">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Nav header</li>
+                            <li><a href="#/samples/navbar/static">Separated link</a></li>
+                            <li><a href="#/samples/navbar/static">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+           
+                <ul b-navbar-nav="position:right">
+                    <li><a href="#/samples/navbar/static">Static <span class="sr-only">(current)</span></a></li>
+                </ul>
+                
+            </b-navbar-collapse>
+
+        </div>
+    </b-navbar>
+
+    <div class="jumbotron">
+        <h1>Navbar example</h1>
+        <p>This example is a quick exercise to illustrate how the static navbar works.</p>
+    </div>
+    
+</template>

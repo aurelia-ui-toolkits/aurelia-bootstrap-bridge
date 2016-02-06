@@ -1,0 +1,48 @@
+<template>
+    <section>
+  
+        <collapse-panel title.bind="sample.title">
+            <div id="exampleWrap">
+                <compose view-model.bind="sample.path"></compose>
+            </div>
+        </collapse-panel>
+        <collapse-panel title="Code Preview">
+
+            <ul b-navs>
+                <li class="active" show.bind="sample.html"><a data-toggle="tab" href="#html">HTML</a></li>
+                <li show.bind="sample.js"><a data-toggle="tab" href="#javascript">Javascript</a></li>
+                <li show.bind="sample.css"><a data-toggle="tab" href="#css">CSS</a></li>
+                <li show.bind="sample.json"><a data-toggle="tab" href="#json">JSON</a></li>
+                <li show.bind="sample.md"><a data-toggle="tab" href="#md">Documentation</a></li>
+            </ul>
+
+            <b-tab-content>
+                <b-tab-pane b-id="html" b-active="true" class="fade in">
+                    <au-code language="markup" url.bind="sample.html">
+                    </au-code>
+                </b-tab-pane>
+
+                <b-tab-pane b-id="javascript" class="fade">
+                    <au-code language="javascript" url.bind="sample.js">
+                    </au-code>
+                </b-tab-pane>
+
+                <b-tab-pane b-id="css" class="fade">
+                    <au-code language="css" url.bind="sample.css">
+                    </au-code>
+                </b-tab-pane>
+
+                <b-tab-pane b-id="json" class="fade">
+                    <au-code language="javascript" url.bind="sample.json">
+                    </au-code>
+                </b-tab-pane>
+
+                <b-tab-pane b-id="md" class="fade">
+                    <au-markdown url.bind="sample.md">
+                    </au-markdown>
+                </b-tab-pane>
+            </b-tab-content>
+
+        </collapse-panel>
+    </section>
+</template>

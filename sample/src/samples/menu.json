@@ -1,0 +1,18 @@
+{
+  "Most popular": {
+    "Click counter": "click-counter"
+  },
+  "Navigation": {
+    "Navbar": "navbar",
+    "Navs": "navs"
+  },
+   "Input": {
+    "Button": "button"
+  },
+   "Collapse": {
+    "Collapse": "collapse"
+  },
+   "Panel": {
+    "Panel": "panel"
+  }
+}

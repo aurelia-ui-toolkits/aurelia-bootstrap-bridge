@@ -1,0 +1,26 @@
+{
+    "title": "Button",
+    "samples": {
+        "default": {
+            "route" : [ "","default"],
+            "files": [ "html", "js" ]
+        },
+        "size": {
+            "route" : [ "size"],
+            "files": [ "html", "js" ]
+        },
+        "block-level": {
+            "route" : [ "block-level" ],
+            "files": [ "html", "js" ]
+        },
+        "active": {
+            "route" : [ "active" ],
+            "files": [ "html", "js" ]
+        },
+        "disabled": {
+            "route" : [ "disabled" ],
+            "files": [ "html", "js" ]
+        }
+        
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Collapse",
+    "samples": {
+        "simple-collapse": {
+            "route" : [ "","simple-collapse"],
+            "files": [ "html", "js" ]
+        },
+        "collapsible-panel": {
+            "route" : [ "collapsible-panel"],
+            "files": [ "html", "js" ]
+        },
+        "collapsible-list-group": {
+            "route" : [ "collapsible-list-group"],
+            "files": [ "html", "js" ]
+        },
+        "accordion": {
+            "route" : [ "accordion"],
+            "files": [ "html", "js" ]
+        }
+                        
+    }
+}

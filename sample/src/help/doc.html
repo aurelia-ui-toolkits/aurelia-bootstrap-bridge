@@ -1,0 +1,30 @@
+<template>
+    
+    <div class="row">
+        <div class="col-md-3">
+            <br>
+
+            <b-panel-group ref="panelGroup">
+
+                <b-panel repeat.for="category of categories">
+                    <b-panel-heading>
+                        <h4 b-panel-title>
+                            <a b-collapse href="#${category.id}">${category.name}</a>
+                        </h4>
+                    </b-panel-heading>
+                    <b-collapsible b-type="panel" b-id="${category.id}">
+                        <ul b-list-group>
+                            <li b-list-group-item style="cursor: pointer" class="${file.path === activeDoc ? 'active' : ''}" repeat.for="file of category.files" click.delegate="routeToPage(file.name, category.name)">${file.name}</li>
+                        </ul>
+                    </b-collapsible>
+                </b-panel>
+
+            </b-panel-group>
+        </div>
+
+        <div class="col-md-9" ref="markdownCol" id="markdownCol">
+            <au-markdown url.bind="activeDoc" loaded.delegate="scrollToTarget()">
+            </au-markdown>
+        </div>
+    </div>
+</template>

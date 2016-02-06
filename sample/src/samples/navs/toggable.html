@@ -1,0 +1,50 @@
+<template>
+
+    <h1>Tabs</h1>
+    <br/>
+    <ul b-navs>
+        <li class="active"><a data-toggle="tab" href="#tab1">Tab 1</a></li>
+        <li><a data-toggle="tab" href="#tab2">Tab 2</a></li>
+        <li><a data-toggle="tab" href="#tab3">Tab 3</a></li>
+    </ul>
+
+    <b-tab-content>
+
+        <b-tab-pane b-id="tab1" b-active="true" class="fade in">
+            <h3>Tab 1</h3>
+        </b-tab-pane>
+        <b-tab-pane b-id="tab2" class="fade">
+            <h3>Tab 2</h3>
+        </b-tab-pane>
+        <b-tab-pane b-id="tab3" class="fade">
+            <h3>Tab 3</h3>
+        </b-tab-pane>
+
+    </b-tab-content>
+    <br/>
+    <br/>
+
+    <h1>Pills</h1>
+    <br/>
+
+    <ul b-navs="b-style:pills">
+        <li class="active"><a data-toggle="tab" href="#pill1">Pill 1</a></li>
+        <li><a data-toggle="tab" href="#pill2">Pill 2</a></li>
+        <li><a data-toggle="tab" href="#pill3">Pill 3</a></li>
+    </ul>
+
+    <b-tab-content>
+
+        <b-tab-pane b-id="pill1" b-active="true" class="fade in">
+            <h3>Pill 1</h3>
+        </b-tab-pane>
+        <b-tab-pane b-id="pill2" class="fade">
+            <h3>Pill 2</h3>
+        </b-tab-pane>
+        <b-tab-pane b-id="pill3" class="fade">
+            <h3>Pill 3</h3>
+        </b-tab-pane>
+
+    </b-tab-content>
+
+</template>

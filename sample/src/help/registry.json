@@ -1,0 +1,67 @@
+{
+    "About this application":
+    [
+      {
+        "name": "1. Introduction",
+        "path": "help/docs/about-this-application/introduction.md"
+      },
+      {
+        "name": "2. Navigation guide",
+        "path": "help/docs/about-this-application/navigation.md"
+      },
+      {
+        "name": "3. Components catalog",
+        "path": "help/docs/about-this-application/components-catalog.md"
+      },
+      {
+        "name": "4. Internal structure",
+        "path": "help/docs/about-this-application/internal-structure.md"
+      },
+      {
+        "name": "5. Installation",
+        "path": "help/docs/about-this-application/installation.md"
+      },
+
+      {
+        "name": "6. Project status",
+        "path": "help/docs/about-this-application/project-status.md"
+      },
+    ],
+
+    "About Aurelia":
+    [
+      {
+        "name": "1. Key features",
+        "path": "help/docs/about-aurelia/features.md"
+      },
+
+    ],
+    
+    "App developers tutorials":
+    [
+      {
+        "name": "1. Introduction",
+        "path": "help/docs/app-developers-tutorials/introduction.md"
+      }
+    ],
+
+    "Bridge developers tutorials":
+    [
+      {
+        "name": "1. Introduction",
+        "path": "help/docs/bridge-developers-tutorials/introduction.md"
+      }
+    ],
+
+    "Bridge developers notes":
+    [
+      {
+        "name": "1. Introduction",
+        "path": "help/docs/bridge-developers-notes/introduction.md"
+      },
+      {
+        "name": "2. Bridge utilities",
+        "path": "help/docs/bridge-developers-notes/bridge-utilities.md"
+      }
+    ]
+}

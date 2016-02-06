@@ -1,0 +1,25 @@
+{
+    "title": "Panel",
+    "samples": {
+        "basic-example": {
+            "route" : [ "","basic-example"],
+            "files": [ "html", "js" ]
+        },
+        "panel-heading" : {
+            "route" : [ "panel-heading"],
+            "files": [ "html", "js" ]
+        },
+        "panel-footer" : {
+            "route" : [ "panel-footer"],
+            "files": [ "html", "js" ]
+        },
+        "panel-group" : {
+            "route" : [ "panel-group"],
+            "files": [ "html", "js" ]
+        },
+        "panel-contextual-classes" : {
+            "route" : [ "panel-contextual-classes"],
+            "files": [ "html", "js" ]
+        }                 
+    }
+}

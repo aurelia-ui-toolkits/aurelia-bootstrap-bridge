@@ -1,0 +1,47 @@
+<template>
+    <div class="container">
+        <b-navbar b-fixed="bottom">
+            <div class="container-fluid">
+                <b-navbar-header>
+                    <b-navbar-toggle b-data-target="#navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </b-navbar-toggle>
+                    
+                    <b-navbar-brand b-href="#/samples/navbar/fixed">Fixed navbar</b-navbar-brand>
+                </b-navbar-header>
+                
+                <b-navbar-collapse b-id="navbar">
+                    <ul b-navbar-nav>
+                        <li class="active"><a href="#/samples/navbar/fixed">Home</a></li>
+                        <li><a href="#/samples/navbar/fixed">About</a></li>
+                        <li><a href="#/samples/navbar/fixed">Contact</a></li>
+                        <li class="dropdown">
+                            <a href="#/samples/navbar/fixed" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#/samples/navbar/fixed">Action</a></li>
+                                <li><a href="#/samples/navbar/fixed">Another action</a></li>
+                                <li><a href="#/samples/navbar/fixed">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#/samples/navbar/fixed">Separated link</a></li>
+                                <li><a href="#/samples/navbar/fixed">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <ul b-navbar-nav="position:right">
+                        <li class="active"><a href="#/samples/navbar/fixed">Fixed <span class="sr-only">(current)</span></a></li>
+                    </ul>
+                </b-navbar-collapse>
+            </div>
+        </b-navbar>
+
+        <div class="jumbotron">
+            <h1>Navbar example</h1>
+            <p>This example is a quick exercise to illustrate how the fixed navbar works. Look down :)</p>
+        </div>
+    </div>
+</template>
